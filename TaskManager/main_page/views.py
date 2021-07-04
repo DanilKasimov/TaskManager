@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 
 def tasks(request):
-    return HttpResponse("<h4>Hello, World!</h4>")
+    return render(request, 'main_page/tests.html')
